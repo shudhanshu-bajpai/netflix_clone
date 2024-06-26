@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: black;
+}
+.main{
+    background-image: url("../../assets/main-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 95vh ;
+    position: relative;
+}
+.main .box{
+    height: 95vh ;
+    width: 100% ;
+    opacity: 0.70 ;
+    position: absolute ;
+    top:0 ;
+    background-color: black ;
+}
+nav{
+  max-width: 70vw;
+  justify-content: space-between ;
+  margin: auto ;
+  display: flex ;
+  align-items: center;
+  height: 92px ;
+}
+nav img{
+  color: red ;
+  width: 150px ;
+  position: relative;
+  z-index: 10;
+}
+nav button{
+  position: relative;
+  z-index: 10 ;
+}
+.hero{
+  height: calc(100% - 92px) ;
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+  flex-direction: column ;
+  color: white;
+  position: relative ;
+  font-family: 'Martel Sans', sans-serif;
+  gap: 23px ;
+  padding: 0 30px;
+  text-align: center;
+}
+.hero> :nth-child(1){
+  font-weight: bolder ;
+  font-size: 48px ;
+  text-align: center;
+}
+.hero> :nth-child(2){
+  font-weight: 500 ;
+  font-size: 24px ;
+  text-align: center;
+}
+.hero> :nth-child(3){
+  font-weight: lighter ;
+  font-size: 20px ;
+  line-height: 30px;
+  text-align: center;
+}
+.separation{
+  height: 8px ;
+  background-color: grey;
+  opacity: 0.3;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  padding: 3px 8px ;
+  background-color: white;
+  color: black ;
+  border: none ;
+  text-decoration: none;
+}
+.red-btn{
+  height:50px ;
+  background-color: red ;
+  align-items: center;
+  color: white ;
+  padding: 6px 24px ;
+  font-size: 20px ;
+  border-radius:4px ;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main input{
+  padding: 6px 24px ;
+  width: 23rem ;
+  height: 3.2rem ;
+  font-size: 17px ;
+  border-radius:4px ;
+  background-color: rgba(23, 23, 23, 0.2) ;
+  margin-right: 8px;
+  border-color: white;
+  border: 1px solid #CCC;
+  color: #CCC;
+}
+.main input:hover{
+  border: 2px solid #CCC ;
+}
+.btn-red-sm{
+  background-color: red ;
+  color: white ;
+  padding: 7px 12px ;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn:hover{
+ background-color: rgb(205, 12, 12);
+}
+.nav-left{
+  display: flex;
+  justify-content: space-between;
+  gap: 23px ;
+}
+.lang-btn{
+  background-color: black;
+  padding: 0 0 0 0 ;
+  border: 0.01px solid white;
+  border-radius: 2px;
+  padding-left: 12px ;
+  padding-right: 12px;
+  cursor: pointer;
+  
+}
+.lang-select{
+  width: 85px ;
+  background-color: black;
+  color: white ;
+  padding: 2px ;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+.lang-icon{
+  width:15px ;
+}
+.logo{
+  width: 100px ;
+  margin-right: 40rem ;
+}
+.right-icon{
+  width:24px ;
+  margin-left: 10px;
+}
+.email-input-btn{
+  display: flex;
+}
+.btn-link{
+  text-decoration: none;
+}
